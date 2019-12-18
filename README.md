@@ -42,7 +42,7 @@ If your TicketOS is integrated with an Active Directory server, you may use the 
 
 ```get-aduser –filter * -property * | Select-object Name, mail  | Export-Csv users.csv -Delimiter ";" -NoTypeInformation```
 
-**IMPORTANT**: Because of the way TicketOS works, you can't create tickets for users that don't exist in your TicketOS installation, even if you have it integrated with an Active Directory server.   You need first to confirm those AD users using the web interface, then you may create a ticket directly from Telegram.
+**IMPORTANT**: You can't create tickets for users that don't exist in your TicketOS installation, even if you have it integrated with an Active Directory server.  You need first to confirm those AD users using the web interface, then you may create tickets directly from Telegram.
 
 ## TODO
 Active directory integration.
