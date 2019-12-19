@@ -30,8 +30,8 @@ MACHINE_IP=172.16.0.1 #IP address of the machine running this script
 API_KEY=123BB12313013 #TicketOS Api Key - This key should be generated in TicketOS and assigned to the same IP address set in MACHINE_IP
 ```
 
-To create a new ticket use
-```newticket Name, Ticket Subject, Issue```. 
+To create a new ticket, send a message in the following format:
+```/newticket Name, Ticket Subject, Issue```. 
 
 You can also edit a */newticket* message and the bot will redo the search using the new parameters.
 
