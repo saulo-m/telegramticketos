@@ -9,7 +9,7 @@ You will need pip to install the script requirements, over here you will find do
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the requirements.
 
 ```bash
-git clone https://github.com/wsus/telegramticketos.git
+git clone https://github.com/saulo-m/telegramticketos.git
 cd telegramticketos
 virtualenv .venv
 source activate .venv/bin/activate
