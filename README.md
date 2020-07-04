@@ -4,7 +4,7 @@ You can now create tickets on TicketOS directly from Telegram!
 
 ## Installation
 
-You will need pip to install the script requirements, over here you will find documentation about installing pip in your OS. The safer way to get your requirements installed without affecting any other Python project you have is using virtualenv
+You will need pip to install the script requirements. The safer way to get your requirements installed without affecting any other Python project you have is using virtualenv
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the requirements.
 
