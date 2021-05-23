@@ -2,7 +2,7 @@ from functions import csv_to_array, get_clients, create_ticket_ticketos, clear_c
 from telebot import TeleBot
 from decouple import config
 
-""" This script creates tickets in the TicketOS from messages sent on Telegram.
+""" This script creates tickets in the osTicket from messages sent on Telegram.
 This bot works on individuals chats or groups chats.
 
 Please change the .env file with yours settings:
@@ -10,9 +10,9 @@ Please change the .env file with yours settings:
 example:
 TELEGRAM_APIKEY=121231313:AAaabbbb123 #Telegram API Key. Message @botfather on telegram to get one
 CLIENTS_FILE=adusers.csv #File with the users and e-mail addresses used to create the tickets (format: name;email)
-TICKETOS_URL=http://example.domain.com/api/tickets.json #URL to TicketOS API
+TICKETOS_URL=http://example.domain.com/api/tickets.json #URL to osTicket API
 MACHINE_IP=172.16.0.1 #IP of the machine running this script
-API_KEY=123BB12313013 #TicketOS Api Key - This key should be generated in TicketOS and assigned to the same IP in MACHINE_IP
+API_KEY=123BB12313013 #osTicket Api Key - This key should be generated in osTicket and assigned to the same IP in MACHINE_IP
 """
 
 
